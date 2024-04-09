@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "title": "Job-portal",
+        "link": "https://rafid-al-ahsan-assignment-09.netlify.app/",
+        "img": "https://i.ibb.co/7X8VvnN/Screenshot-2024-04-09-011901.png",
+        "description": "This is a frontend application allows users to browse avaiable jobs and select one of interest. The selected job is then stored in the localstorage",
+        "technologies": "Javascript, Tailwindcss, React.js, React Router, React hooks",
+        "features": [
+            "User-friendly Interface: An intuitive and easy-to-navigate user interface for browsing jobs and managing applications",
+            "Job-browse: Users are able to view available jobs",
+            "Application Submission: Users can submit their job applications through the frontend application",
+            "Responsive Design: The home page of the application is fully responsive, ensuring a consistent experience on         different devices"
+        ],
+        "live": "https://rafid-al-ahsan-assignment-09.netlify.app",
+        "client": "https://github.com/Rafid-Al-Ahsan/career-portal"
+    },
+    {
+        "id": "2",
+        "title": "Chef-recipe",
+        "link": "https://rafid-al-ahsan-assignment-10.netlify.app/",
+        "img": "https://i.ibb.co/QnsB14M/chef.png",
+        "description": "On this website, users must log in to access details about a chef. After logging in, users can view all the recipes attributed to the chef, along with the ingredients used in each recipe. Additionally, users have the option to add a recipe to their favorites.",
+        "technologies": "Javascript, React-bootstrap, React.js, React Router, React hooks, Firebase, React-toast, APIs, Firebase",
+        "features": [
+            "Completely Responsive: Users may view it in any device whether is a mobile, tablet or pc",
+            "Create an account: Users are able to create an account using email and password",
+            "Firebase Authentication: Firebase Authentication system integrated",
+            "Application Submission: A visiter may also login using github account or google account",
+            "View chif details and their recipies: Aftering signing in all information of the chef is available to users",
+            "Add a recipie to favourites: After viewing a recipie it can be added to favourites just by the click of a button",
+            "SigIn using Github or Google: A visiter has the option to signin using github or google account",
+            "Data loaded from an external API: All the chef data are loaded from an external API created by the same developer of this website",
+            "Active Route: The current route in highlited in the header",
+            "Lazy Loading: The chef banner picture uses lazyloading to reduce website loading time",
+            "Able to download information into pdf: Using the download 'Download PDF' button all the contents of the blogs page can be downloaded into one pdf",
+            "Asthetic Design: the website has a easy to use and beautiful, modern graphical user interface",
+            "Password lenght check: During registration if the password is less and 6 chracters the and error message will be displayed",
+            "404 page integration: If a router does not exits then a custom 404 page not found will be displayed",
+            "Chef Details are private route protected: Meaning a user has to signin first in order to view chef details and recipies",
+            "Spinner Animation: Spinner animation is displayed when data is in loading/fetching state"
+        ],
+        "live": "https://rafid-al-ahsan-assignment-10.netlify.app/",
+        "client": "https://github.com/Rafid-Al-Ahsan/chef-recipies-client",
+        "server": "https://github.com/Rafid-Al-Ahsan/chef-recipies-server"
+    },
+    {
+        "id": "3",
+        "title": "Toy-Store",
+        "link": "https://email-password-auth-2-d2bfd.web.app/",
+        "img": "https://i.ibb.co/7pkYg6L/toy.png",
+        "description": "Users can browse all available toys on the website. Upon logging in, users gain the ability to add their own toys to the collection. Furthermore, they can delete any of their added toys and make necessary edits to toy details using CRUD functionality.",
+        "technologies": "React, MongoDB, Nodejs, Express.js, Tailwindcss, Restful APIs, Firebase, React hooks",
+        "features": [
+            "Add a toy: Users can add in their own toy in addtoy page",
+            "View all toys added by other users: Aftering signing in all toys in the database can be view by user in AllToys Page",
+            "Update toy information: Able to update toy information in mytoys page",
+            "Delete a toy they added: Users wil be able delete toy they added in mytoys page",
+            "Firebase Authentiation system",
+            "Login using email or gmail: A visiter may also login using google account or using email",
+            "Completely Responsive: Users may view it in any device whether is a mobile, tablet or pc",
+            "Create an account: Users are able to create an account using email and password",
+            "Data loaded from an external API: All the toy data are loaded from an external API created by the same developer of this website",
+            "Active Route: The current route in highlited in the header",
+            "Asthetic Design: the website has a easy to use and beautiful, modern graphical user interface",
+            "404 page integration: If a router does not exits then a custom 404 page not found will be displayed",
+            "Toy Details are private route protected: Meaning a user has to signin first in order to view toy details",
+            "Spinner Animation: Spinner animation is displayed when data is in loading/fetching state"
+        ],
+        "live": "https://email-password-auth-2-d2bfd.web.app/",
+        "client": "https://github.com/Rafid-Al-Ahsan/marveltoy-marketplace-client",
+        "server": "https://github.com/Rafid-Al-Ahsan/toy-marketplace-server" 
+    }
+]
